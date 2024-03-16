@@ -1,0 +1,74 @@
+/*
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+*/
+
+* {
+  font-family: Inter;
+  color: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+
+.container-socials {
+  width: 350px;
+  height: 550px;
+  margin: 200px auto;
+  padding-bottom: 10px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  text-align: center;
+}
+
+img {
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.location {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.intro {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.github,
+.frontend,
+.linked-in,
+.twitter,
+.insta {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 10px 0px;
+  margin-top: 0px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: hsl(0, 0%, 20%);
+}
